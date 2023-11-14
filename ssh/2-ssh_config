@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# File: 2-ssh_config
+
+# Host directive for your server
+Host root@e7f2a6f52f57 
+    # Use the private key
+    IdentityFile ~/.ssh/school
+    # Disable password authentication
+    PasswordAuthentication no
