@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 # Server details
 server_ip="52.204.120.217"
 user="ubuntu"
