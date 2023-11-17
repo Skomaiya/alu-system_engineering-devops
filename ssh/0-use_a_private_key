@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#!/bin/bash
 
 # Server details
 server_ip="52.204.120.217"
