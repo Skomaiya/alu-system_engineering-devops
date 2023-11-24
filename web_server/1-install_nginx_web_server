@@ -4,13 +4,5 @@
 apt-get -y update
 apt-get -y install nginx
 ufw allow  'Nginx HTTP'
-sudo echo "<html>
-  <head>
-    <title>Welcome to Holberton School</title>
-  </head>
-  <body>
-    <h1>Holberton School</h1>
-  </body>
-</html>" > /var/www/html/index.html
-sudo chown www-data:www-data /var/www/html/index.html
-service nginx restart
+sudo echo "<p>Holberton School</p>" | sudo tee /var/www/html/index.html
+sudo service nginx restart
