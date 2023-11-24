@@ -5,4 +5,5 @@ apt-get -y update
 apt-get -y install nginx
 ufw allow  'Nginx HTTP'
 sudo echo "<p>Holberton School</p>" | sudo tee /var/www/html/index.html
-sudo service nginx restart
+sudo nginx -t
+sudo service nginx start
